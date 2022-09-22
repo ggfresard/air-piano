@@ -1,7 +1,6 @@
-import { HAND_CONNECTIONS, NormalizedLandmark } from "@mediapipe/hands"
 import { angleHandler } from "./handlers"
-import { Hand, HandPoints } from "./hands"
-import { angleBetweenPoints, playNote } from "./utils"
+import { Hand } from "./hands"
+import { playNote } from "./utils"
 
 var hands
 const display = document.getElementById("display") as HTMLDivElement
